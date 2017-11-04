@@ -1,5 +1,5 @@
 # strawpolljs
-A simple Strawpoll API for NodeJS
+A simple Strawpoll API wrapper for NodeJS
 
 ## Install
 
@@ -27,7 +27,7 @@ strawpoll.createPoll({
 	multi: true, // Allows multiple answers (Strawpoll will use a checkbox for the options)
 	dupcheck: "normal", // IP Duplication check state
 	captcha: true // Should strawpoll use a Captcha?
-})
+});
 ~~~
 
 strawpolljs uses promises, so you can read the poll data when the poll has been successfully created

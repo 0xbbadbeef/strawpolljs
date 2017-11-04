@@ -1,8 +1,8 @@
 // Our module
-const strawpoll = require("../lib/main.js");
+const strawpoll = require("strawpolljs");
 
 //
-//	Creating a poll
+//	Reading a poll
 //
 
 strawpoll.readPoll(14323743).then( function(result){ // Read poll '14323743's data

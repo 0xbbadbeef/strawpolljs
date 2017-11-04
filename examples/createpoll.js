@@ -1,5 +1,5 @@
 // Our module
-const strawpoll = require("../lib/main.js");
+const strawpoll = require("strawpolljs");
 
 //
 //	Creating a poll

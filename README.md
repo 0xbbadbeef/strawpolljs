@@ -41,7 +41,7 @@ strawpoll.createPoll({
 	],
 }).then( function(response) {
   console.log(response); //The poll's data
-};
+});
 ~~~
 
 #### Reading a straw poll

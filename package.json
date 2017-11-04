@@ -1,0 +1,27 @@
+{
+  "name": "strawpolljs",
+  "version": "1.0.2",
+  "description": "A simple Strawpoll API wrapper for NodeJS",
+  "main": "lib/strawpolljs.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xbbadbeef/strawpolljs.git"
+  },
+  "keywords": [
+    "strawpoll",
+    "wrapper",
+    "nodejs",
+    "api",
+    "simple"
+  ],
+  "author": "0xbbadbeef",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0xbbadbeef/strawpolljs/issues"
+  },
+  "homepage": "https://github.com/0xbbadbeef/strawpolljs#readme",
+  "dependencies": {
+      "request": "^2.34",
+      "request-promise": "^4.1.1"
+  }
+}
